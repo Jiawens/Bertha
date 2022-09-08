@@ -1,0 +1,16 @@
+[package]
+name = "bertha"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+imap = "2.4.1"
+native-tls = "0.2.10"
+chrono = "0.4.22"
+rfc2047-decoder = "0.1.2"
+
+[dependencies.clap]
+version="3.2.15"
+features=["derive"]
