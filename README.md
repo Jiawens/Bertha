@@ -28,4 +28,4 @@ OPTIONS:
 
 If you are using QQMail, please use an [authorized code](https://service.mail.qq.com/cgi-bin/help?subtype=1&&no=1001607&&id=28) instead of password.
 
-Current version doesn't include any optimization, it will send a IMAP request for every mail in the search result. So please don't let INBOX contains too many mails, or it will spend a lot of time on network IO. Version 0.2.0 will use tokio, which can reduce time wasting on network IO.
+Current version doesn't include any optimization, it will send a IMAP request for every mail in the search result. So please don't let INBOX contains too many mails, or it will spend a lot of time on network IO.
